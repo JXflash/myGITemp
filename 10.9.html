@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.php" method="POST" name="name1">
+        <!-- 文本框可以任意输入 -->
+       用户名: <input type="text" name="jr" value="请输入用户名" maxlength="6"> <br>
+       密码： <input type="password" name="password" value=""> <br>
+       <!-- 单选按钮可以实现多选 -->
+       <!-- name是表单元素名字，这里性别需要有同一个名字才能实现多选一 -->
+       <!-- 单选按钮和复选按钮可以设置checked属性，默认选择 -->
+       性别： 男 <input type="radio" name="sex" value="男" checked="checked"> 女 <input type="radio" name="sex" value="女"> <br>
+       爱好： 篮球 <input type="checkbox" name="hobby" value="篮球" checked="checked"> 游戏 <input type="checkbox" name="hobby" value="游戏">
+             吃饭 <input type="checkbox" name="hobby" value="吃饭"> <br>
+             
+          
+    </form> 
+
+</body>
+</html>
