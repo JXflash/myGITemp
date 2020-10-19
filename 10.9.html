@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="demo.php" method="POST" name="name1">
+    <form action="demo.php" method="GET" name="name1">
         <!-- 文本框可以任意输入 -->
        用户名: <input type="text" name="jr" value="请输入用户名" maxlength="6"> <br>
        密码： <input type="password" name="password" value=""> <br>
@@ -16,8 +16,16 @@
        性别： 男 <input type="radio" name="sex" value="男" checked="checked"> 女 <input type="radio" name="sex" value="女"> <br>
        爱好： 篮球 <input type="checkbox" name="hobby" value="篮球" checked="checked"> 游戏 <input type="checkbox" name="hobby" value="游戏">
              吃饭 <input type="checkbox" name="hobby" value="吃饭"> <br>
-             
-          
+             <input type="submit" value="免费注册">
+             <!-- 重置按钮可以还原表单元素初始默认状态 -->
+             <!-- 点击了提交按钮，可以把表单域form里面的内容提交给后台 -->
+             <input type="reset" value="重新输入">
+             <input type="button" value="获取验证码">
+             <input type="file">
+ 
+
+
+                       
     </form> 
 
 </body>
