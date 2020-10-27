@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体属性</title>
+    <style>
+        /* h2{
+            font-family: '微软雅黑';
+        }
+        p {
+            font-family: 'Microsoft YaHei';
+        } */
+        body {
+            font-size: 16px;
+        }
+        /* 标题标签比较特殊，需要单独设置大小 */
+        h2{
+            /* font-size: 32px; */
+            /* font-weight: 400; */
+            font-weight: normal;
+            font-style: italic;
+            text-align: center;
+        }
+        .bold {
+            /* font-weight: bold; */
+            font-weight: 700;
+            /* 实际开发中，更提倡用数字 */
+        }
+        .em {
+            font-style: normal;
+        }
+        div{
+            /* font-style: italic;
+            font-weight: 700;
+            font-size: 16px;
+            font-family:Microsoft Yahei ; */
+            /* font:font-style font-weight font-size font-family; */
+            font: italic 700 16px 'Microsoft Yahei';
+            /* 字体大小和样式不能省略 */
+            line-height: 20px;
+            /* 设置行高 */
+        }
+        .div1 {
+            /* color:deeppink; */
+            /* color: #7c3567; */
+            color: rgb(225, 0, 255);
+             
+        }
+        .div2 {
+            /* text-decoration: line-through; */
+            text-decoration: underline;  
+             /* text-decoration: overline;  */
+        }
+        .div3{
+            text-decoration: none;
+            color: #333;
+            text-indent: 2em;
+            /* 首行缩进a */
+            /* em相当于当前1个字体大小的距离 */
+        }
+    </style>
+</head>
+<body>
+    <h2 class="h2">pink的秘密</h2>
+    <em class="em">那一抹众人中最漂亮的颜色,</em>
+    <p>优雅，淡然，有那么心中清澈.</p>
+    <p>前端总是伴随着困难和犯错,</p>
+    <p>静心，坦然，攻克一个又一个.</p>
+    <p class="bold">拼死也要克服它,</p>
+    <p>这是pink的秘密也是老师最终的嘱托.</p>
+    <div class="div">三生三世十里桃花，一心一意百行代码</div>
+    <div class="div1">听说喜欢pink色的男生，都喜欢男人哦</div>
+    <div class="div2">粉红色的回忆</div>
+    <div class="div3">粉红色的回忆</div>
+</body>
+</html>
